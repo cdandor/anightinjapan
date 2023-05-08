@@ -31,11 +31,15 @@ header {
 section {
   margin: 40px 0 0 0;
 }
+nav a.selected {
+  border-bottom: 3px solid $red;
+}
+
 nav a,
+nav a.selected,
 p a {
   color: $black;
   text-decoration: none;
-  border-bottom: 3px solid $red;
 }
 h1,
 h2,
@@ -43,7 +47,9 @@ h3,
 p.read-more {
   font-weight: 700;
 }
-
+img {
+  max-width: 780px;
+}
 h1 {
   font-size: 80px;
 }
