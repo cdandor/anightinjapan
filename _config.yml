@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: clinton@super-hi.com
 description: A blog about nightlige in Japan
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: notreal
 github_username: cdandor
 theme: minima
